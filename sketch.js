@@ -132,7 +132,7 @@ function showBoats() {
 }
 
 
-//releasing the cannonball on key release
+//liberar la bala de cañón al soltar la flecha
 function keyReleased() {
   if (keyCode === DOWN_ARROW) {
     balls[balls.length - 1].shoot();
